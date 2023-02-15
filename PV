@@ -1,6 +1,14 @@
-PV = Present Value
-r = Interest Rate
-n = Number of Periods
+# PV = Present Value
+# r = Interest Rate
+# n = Number of Periods
+
+# FV = PV*(1+r/100)**n
+# print (FV)
+
+PV = float(input("State your deposit: "))
+r = float(input("Set interest rate : "))
+n = float(input("Set period yearly : "))
 
 FV = PV*(1+r/100)**n
-print (FV)
+
+print(FV)
